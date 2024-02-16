@@ -1,16 +1,16 @@
-
+// import counter from "./components/counters";
+// import Counter1 from "./components/counters/counter1";
+import parent from "./components/forms/parent";
 function App() {
 
   return (
     <>
-    <center>
- <h2>star anwarsha</h2>
- <h4>in & as</h4>
-      <h1>hello era2petta</h1>
+    {/* */}
+   <parent/>
      
-    </center>
+    
     </>
   )
 }
 
-export default App
+export default App;
