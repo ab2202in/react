@@ -1,8 +1,8 @@
 import React,{ useState } from "react";
-import form from "./form";
-import display from "./display";
+import Form from "./Form";
+import Display from "./Display";
 
-function parent(){
+function Parent(){
     console.log("Parent Component rendering");
 
     const [dataToDisplay,setDataToDisplay] =useState('');
@@ -14,10 +14,10 @@ function parent(){
 
     return(
         <>
-        <form onSubmit={handleSubmit}/>
-        <display displayData={dataToDisplay}/>
+        <Form onSubmit={handleSubmit}/>
+        <Display displayData={dataToDisplay}/>
         </>
     )
 }
 
-export default parent;
+export default Parent;

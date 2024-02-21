@@ -1,12 +1,14 @@
 // import counter from "./components/counters";
 // import Counter1 from "./components/counters/counter1";
-import parent from "./components/forms/parent";
+import Calculator from "./calc/Calculator";
+// import Parent from "./components/forms/Parent";
 function App() {
 
   return (
     <>
     {/* */}
-   <parent/>
+   {/* <Parent/> */}
+   <Calculator/>
      
     
     </>

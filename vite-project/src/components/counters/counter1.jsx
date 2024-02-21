@@ -16,4 +16,4 @@ function Counter1({initialCount}){
     )
 }
 
-export default Counter1
+export default Counter1;

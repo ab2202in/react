@@ -1,6 +1,6 @@
 import React,{ useState } from "react";
 
-function form ({onSubmit}){
+function Form ({onSubmit}){
 
     const [inputData, setInputData] =useState({
         name : '',
@@ -41,4 +41,4 @@ function form ({onSubmit}){
     )
 }
 
-export default form;
+export default Form;
